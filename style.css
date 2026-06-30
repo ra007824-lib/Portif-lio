@@ -1,0 +1,142 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("https://images.openai.com/static-rsc-4/ug3Pa1GaWNhUZlV1B8sorLdhvzd8uL1y1_Qz2ULxf7oekpRYEQO0p6h4GTJjSjJKAGikHLfndAkTC_1kyAkWnK9isC0HgqQH4GRK1w_SgqY4uOuiJusD5GDC-S1pBbuCZY6XnedDfBB0fShiS0KgQ4LrbLF_0jgbI4c7sCe9G_SBClxuFcgrXMww4YqsLn2m?purpose=inline");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#tsparticles{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    pointer-events: none;
+
+}
+
+header{
+
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+}
+
+section{
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+
+    background: rgba(255,255,255,0.9);
+
+    border-radius: 10px;
+
+    position: relative;
+    z-index: 1;
+
+}
+
+h2{
+
+    color: #003366;
+
+}
+
+ul{
+
+    line-height: 30px;
+
+}
+
+a{
+
+    color: blue;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color: red;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+
+    margin-top: 10px;
+
+}
+
+input{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+
+}
+
+input:focus{
+
+    border: 2px solid blue;
+    outline: none;
+
+}
+
+button{
+
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+
+    background: #003366;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background: #0055aa;
+
+}
+
+#mensagem{
+
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+
+}
+
+footer{
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
